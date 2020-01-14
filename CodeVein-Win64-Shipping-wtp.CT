@@ -1683,9 +1683,9 @@ dealloc(bCodeScan)
 //code from here to '[DISABLE]' will be used to enable the cheat
 
 {$lua}
-zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+04260038]+240]+88]+E8]+170]+1A8'
-yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+04260038]+240]+88]+E8]+170]+1A4'
-xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+04260038]+240]+88]+E8]+170]+1A0'
+zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F79710]+160]+90]+388]+170]+1A8'
+yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F79710]+160]+90]+388]+170]+1A4'
+xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F79710]+160]+90]+388]+170]+1A0'
 
 rolladdr  = '[[[[["CodeVein-Win64-Shipping.exe"+03EEFB10]+C0]+20]+A0]+508]+3B8'
 yawaddr   = '[[[[["CodeVein-Win64-Shipping.exe"+03EEFB10]+C0]+20]+A0]+508]+3B4'
