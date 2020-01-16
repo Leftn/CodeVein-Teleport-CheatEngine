@@ -1683,9 +1683,9 @@ dealloc(bCodeScan)
 //code from here to '[DISABLE]' will be used to enable the cheat
 
 {$lua}
-zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F79710]+160]+90]+388]+170]+1A8'
-yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F79710]+160]+90]+388]+170]+1A4'
-xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F79710]+160]+90]+388]+170]+1A0'
+zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+041061C0]+20]+380]+388]+170]+1A8'
+yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+041061C0]+20]+380]+388]+170]+1A4'
+xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+041061C0]+20]+380]+388]+170]+1A0'
 
 rolladdr  = '[[[[["CodeVein-Win64-Shipping.exe"+03EEFB10]+C0]+20]+A0]+508]+3B8'
 yawaddr   = '[[[[["CodeVein-Win64-Shipping.exe"+03EEFB10]+C0]+20]+A0]+508]+3B4'
@@ -1778,43 +1778,40 @@ t.Enabled=true
             <CheatEntry>
               <ID>1353</ID>
               <Description>"x"</Description>
-              <LastState Value="-3167.23584" RealAddress="E81581E0"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+04260038</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+041061C0</Address>
               <Offsets>
                 <Offset>1A0</Offset>
                 <Offset>170</Offset>
-                <Offset>E8</Offset>
-                <Offset>88</Offset>
-                <Offset>240</Offset>
+                <Offset>388</Offset>
+                <Offset>380</Offset>
+                <Offset>20</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>1354</ID>
               <Description>"y"</Description>
-              <LastState Value="2013.786133" RealAddress="E81581E4"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+04260038</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+041061C0</Address>
               <Offsets>
                 <Offset>1A4</Offset>
                 <Offset>170</Offset>
-                <Offset>e8</Offset>
-                <Offset>88</Offset>
-                <Offset>240</Offset>
+                <Offset>388</Offset>
+                <Offset>380</Offset>
+                <Offset>20</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>1355</ID>
               <Description>"z"</Description>
-              <LastState Value="40950.28906" RealAddress="E81581E8"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+04260038</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+041061C0</Address>
               <Offsets>
                 <Offset>1A8</Offset>
                 <Offset>170</Offset>
-                <Offset>e8</Offset>
-                <Offset>88</Offset>
-                <Offset>240</Offset>
+                <Offset>388</Offset>
+                <Offset>380</Offset>
+                <Offset>20</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
@@ -1829,7 +1826,6 @@ t.Enabled=true
             <CheatEntry>
               <ID>1358</ID>
               <Description>"Roll"</Description>
-              <LastState Value="0" RealAddress="41EA6EF8"/>
               <VariableType>Float</VariableType>
               <Address>"CodeVein-Win64-Shipping.exe"+03EEFB10</Address>
               <Offsets>
@@ -1843,7 +1839,6 @@ t.Enabled=true
             <CheatEntry>
               <ID>1360</ID>
               <Description>"Yaw"</Description>
-              <LastState Value="170.5629425" RealAddress="41EA6EF4"/>
               <VariableType>Float</VariableType>
               <Address>"CodeVein-Win64-Shipping.exe"+03EEFB10</Address>
               <Offsets>
@@ -1857,7 +1852,6 @@ t.Enabled=true
             <CheatEntry>
               <ID>1359</ID>
               <Description>"Pitch"</Description>
-              <LastState Value="319.4654236" RealAddress="41EA6EF0"/>
               <VariableType>Float</VariableType>
               <Address>"CodeVein-Win64-Shipping.exe"+03EEFB10</Address>
               <Offsets>
