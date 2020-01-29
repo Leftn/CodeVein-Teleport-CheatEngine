@@ -1671,7 +1671,7 @@ dealloc(bCodeScan)
       <ID>1347</ID>
       <Description>"Teleport"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -1683,13 +1683,13 @@ dealloc(bCodeScan)
 //code from here to '[DISABLE]' will be used to enable the cheat
 
 {$lua}
-zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+041061C0]+20]+380]+388]+170]+1A8'
-yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+041061C0]+20]+380]+388]+170]+1A4'
-xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+041061C0]+20]+380]+388]+170]+1A0'
+zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03EFC960]+F8]+538]+3F0]+100]+1A8'
+yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03EFC960]+F8]+538]+3F0]+100]+1A4'
+xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03EFC960]+F8]+538]+3F0]+100]+1A0'
 
-rolladdr  = '[[[[["CodeVein-Win64-Shipping.exe"+03EEFB10]+C0]+20]+A0]+508]+3B8'
-yawaddr   = '[[[[["CodeVein-Win64-Shipping.exe"+03EEFB10]+C0]+20]+A0]+508]+3B4'
-pitchaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03EEFB10]+C0]+20]+A0]+508]+3B0'
+rolladdr  = '[[[[["CodeVein-Win64-Shipping.exe"+0433A1C0]+30]+410]+380]+80]+3B8'
+yawaddr   = '[[[[["CodeVein-Win64-Shipping.exe"+0433A1C0]+30]+410]+380]+80]+3B4'
+pitchaddr = '[[[[["CodeVein-Win64-Shipping.exe"+0433A1C0]+30]+410]+380]+80]+3B0'
 
 
 z = readFloat(zaddr)
@@ -1772,7 +1772,7 @@ t.Enabled=true
           <ID>1356</ID>
           <Description>"Co-ordinate Pointers"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
@@ -1820,46 +1820,49 @@ t.Enabled=true
           <ID>1357</ID>
           <Description>"Camera Angle Pointers"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>1358</ID>
               <Description>"Roll"</Description>
+              <LastState Value="0" RealAddress="45D0E3D8"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+03EEFB10</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+0433a1c0</Address>
               <Offsets>
                 <Offset>3b8</Offset>
-                <Offset>508</Offset>
-                <Offset>a0</Offset>
-                <Offset>20</Offset>
-                <Offset>c0</Offset>
+                <Offset>80</Offset>
+                <Offset>380</Offset>
+                <Offset>410</Offset>
+                <Offset>30</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>1360</ID>
               <Description>"Yaw"</Description>
+              <LastState Value="152.6273499" RealAddress="45D0E3D4"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+03EEFB10</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+0433a1c0</Address>
               <Offsets>
                 <Offset>3b4</Offset>
-                <Offset>508</Offset>
-                <Offset>a0</Offset>
-                <Offset>20</Offset>
-                <Offset>c0</Offset>
+                <Offset>80</Offset>
+                <Offset>380</Offset>
+                <Offset>410</Offset>
+                <Offset>30</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>1359</ID>
               <Description>"Pitch"</Description>
+              <LastState Value="353.0592957" RealAddress="45D0E3D0"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+03EEFB10</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+0433a1c0</Address>
               <Offsets>
                 <Offset>3b0</Offset>
-                <Offset>508</Offset>
-                <Offset>a0</Offset>
-                <Offset>20</Offset>
-                <Offset>c0</Offset>
+                <Offset>80</Offset>
+                <Offset>380</Offset>
+                <Offset>410</Offset>
+                <Offset>30</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
