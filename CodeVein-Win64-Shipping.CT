@@ -1671,7 +1671,7 @@ dealloc(bCodeScan)
       <ID>1347</ID>
       <Description>"Teleport"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" RealAddress="00000000"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -1826,7 +1826,6 @@ t.Enabled=true
             <CheatEntry>
               <ID>1358</ID>
               <Description>"Roll"</Description>
-              <LastState Value="0" RealAddress="45D0E3D8"/>
               <VariableType>Float</VariableType>
               <Address>"CodeVein-Win64-Shipping.exe"+0433a1c0</Address>
               <Offsets>
@@ -1840,7 +1839,6 @@ t.Enabled=true
             <CheatEntry>
               <ID>1360</ID>
               <Description>"Yaw"</Description>
-              <LastState Value="152.6273499" RealAddress="45D0E3D4"/>
               <VariableType>Float</VariableType>
               <Address>"CodeVein-Win64-Shipping.exe"+0433a1c0</Address>
               <Offsets>
@@ -1854,7 +1852,6 @@ t.Enabled=true
             <CheatEntry>
               <ID>1359</ID>
               <Description>"Pitch"</Description>
-              <LastState Value="353.0592957" RealAddress="45D0E3D0"/>
               <VariableType>Float</VariableType>
               <Address>"CodeVein-Win64-Shipping.exe"+0433a1c0</Address>
               <Offsets>
@@ -1864,6 +1861,328 @@ t.Enabled=true
                 <Offset>410</Offset>
                 <Offset>30</Offset>
               </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1361</ID>
+          <Description>"Boss Teleports"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>1367</ID>
+              <Description>"Oliver"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = -17777.0
+y = -10337.0
+z = 40831.0
+
+roll = 0.0
+yaw = 0.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1368</ID>
+              <Description>"Argent Wolf Berserker"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 23980.0
+y = 83887.0
+z = 40797.0
+
+roll = 0.0
+yaw = 180.0
+pitch = 270.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1369</ID>
+              <Description>"Queen's Knight"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 140489.0
+y = -44776.0
+z = 49570.0
+
+roll = 0.0
+yaw = 0.0
+pitch = 270.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1371</ID>
+              <Description>"Successor of the Ribcage"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 9222.0
+y = 73719.0
+z = 40392.0
+
+roll = 0.0
+yaw = 90.0
+pitch = 270.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1370</ID>
+              <Description>"Successor of the Throat"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 233338.0
+y = 11664.0
+z = 34274.0
+
+roll = 0.0
+yaw = 90.0
+pitch = 270.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1363</ID>
+              <Description>"Blade Bearer &amp; Cannoneer"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 193408.0
+y = 11169.0
+z = 42966.0
+
+roll = 0.0
+yaw = 180.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1362</ID>
+              <Description>"Mido"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 182143.0
+y = 11159.0
+z = 43661.0
+
+roll = 0.0
+yaw = 180.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1364</ID>
+              <Description>"Queen's Knight Reborn"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 127952.0
+y = 11118.0
+z = 49770.0
+
+roll = 0.0
+yaw = 180.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1366</ID>
+              <Description>"Attendant of the Relics"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 82518.0
+y = 7631.0
+z = 44061.0
+
+roll = 0.0
+yaw = 270.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1365</ID>
+              <Description>"Skull King/Virgin Born"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 72016.0
+y = -18.0
+z = 20270.0
+
+roll = 0.0
+yaw = 180.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1372</ID>
+          <Description>"Skip Teleports"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>1376</ID>
+              <Description>"Cathedral Early"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 7596.0
+y = 25273.0
+z = 43285.0
+
+roll = 0.0
+yaw = 95.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1377</ID>
+              <Description>"Artificial/Outlook Skip"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 17472.0
+y = 61527.0
+z = 40792.0
+
+roll = 0.0
+yaw = 335.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1378</ID>
+              <Description>"Ornate Key Early"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 18646.0
+y = 81565.0
+z = 41591.0
+
+roll = 0.0
+yaw = 250.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1373</ID>
+              <Description>"Shoddy Key Skip"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 19335.0
+y = 76396.0
+z = 41591.0
+
+roll = 0.0
+yaw = 240.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1374</ID>
+              <Description>"Memory of Player Skip"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 131023.0
+y = -43535.0
+z = 49799.0
+
+roll = 0.0
+yaw = 125.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1375</ID>
+              <Description>"Crown of Sands Early"</Description>
+              <LastState/>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+{$lua}
+x = 228831.0
+y = -31276.0
+z = 39268.0
+
+roll = 0.0
+yaw = 180.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
