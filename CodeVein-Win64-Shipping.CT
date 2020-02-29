@@ -1819,7 +1819,7 @@ t.Enabled=true
           <ID>1357</ID>
           <Description>"Camera Angle Pointers"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
@@ -1867,7 +1867,7 @@ t.Enabled=true
           <ID>1361</ID>
           <Description>"Boss Teleports"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
@@ -1901,8 +1901,8 @@ y = 83887.0
 z = 40797.0
 
 roll = 0.0
-yaw = 180.0
-pitch = 270.0
+yaw = 270.0
+pitch = 350.0
 {$asm}
 
 [DISABLE]
@@ -1921,7 +1921,7 @@ z = 49570.0
 
 roll = 0.0
 yaw = 0.0
-pitch = 270.0
+pitch = 350.0
 {$asm}
 
 [DISABLE]
@@ -1940,7 +1940,7 @@ z = 40392.0
 
 roll = 0.0
 yaw = 90.0
-pitch = 270.0
+pitch = 350.0
 {$asm}
 
 [DISABLE]
@@ -1959,7 +1959,7 @@ z = 34274.0
 
 roll = 0.0
 yaw = 90.0
-pitch = 270.0
+pitch = 350.0
 {$asm}
 
 [DISABLE]
@@ -2066,7 +2066,7 @@ pitch = 350.0
           <ID>1372</ID>
           <Description>"Skip Teleports"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
