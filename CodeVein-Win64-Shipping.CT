@@ -1852,7 +1852,7 @@ t.Enabled=true
             <CheatEntry>
               <ID>1360</ID>
               <Description>"Yaw"</Description>
-              <LastState Value="358.164856" RealAddress="425EEE74"/>
+              <LastState Value="357.5699463" RealAddress="425EEE74"/>
               <VariableType>Float</VariableType>
               <Address>"CodeVein-Win64-Shipping.exe"+04160018</Address>
               <Offsets>
@@ -2249,34 +2249,6 @@ pitch = 350.0
           </CheatEntries>
         </CheatEntry>
       </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>1399</ID>
-      <Description>"pointerscan result"</Description>
-      <LastState Value="358.164856" RealAddress="425EEE74"/>
-      <VariableType>Float</VariableType>
-      <Address>"CodeVein-Win64-Shipping.exe"+04160018</Address>
-      <Offsets>
-        <Offset>3B4</Offset>
-        <Offset>68</Offset>
-        <Offset>5C0</Offset>
-        <Offset>8</Offset>
-        <Offset>2A0</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>1400</ID>
-      <Description>"pointerscan result"</Description>
-      <LastState Value="140133.1875" RealAddress="DFF678C0"/>
-      <VariableType>Float</VariableType>
-      <Address>"CodeVein-Win64-Shipping.exe"+03F296F0</Address>
-      <Offsets>
-        <Offset>1A0</Offset>
-        <Offset>108</Offset>
-        <Offset>9D8</Offset>
-        <Offset>538</Offset>
-        <Offset>F8</Offset>
-      </Offsets>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
