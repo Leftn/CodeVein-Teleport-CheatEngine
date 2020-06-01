@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="29">
+<CheatTable CheatEngineTableVersion="31">
   <CheatEntries>
     <CheatEntry>
       <ID>1</ID>
@@ -1671,7 +1671,7 @@ dealloc(bCodeScan)
       <ID>1347</ID>
       <Description>"Teleport"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -1683,13 +1683,13 @@ dealloc(bCodeScan)
 //code from here to '[DISABLE]' will be used to enable the cheat
 
 {$lua}
-zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F2A830]+f0]+3d8]+538]+3f8]+1A8'
-yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F2A830]+f0]+3d8]+538]+3f8]+1A4'
-xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F2A830]+f0]+3d8]+538]+3f8]+1A0'
+zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A8'
+yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A4'
+xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A0'
 
-rolladdr  = '[[[[["CodeVein-Win64-Shipping.exe"+041412E0]+20]+4b0]+a8]+3b8]+3b8'
-yawaddr   = '[[[[["CodeVein-Win64-Shipping.exe"+041412E0]+20]+4b0]+a8]+3b8]+3B4'
-pitchaddr = '[[[[["CodeVein-Win64-Shipping.exe"+041412E0]+20]+4b0]+a8]+3b8]+3B0'
+rolladdr  = '[[[[["CodeVein-Win64-Shipping.exe"+041466F0]+f8]+308]+70]+20]+3b8'
+yawaddr   = '[[[[["CodeVein-Win64-Shipping.exe"+041466F0]+f8]+308]+70]+20]+3B4'
+pitchaddr = '[[[[["CodeVein-Win64-Shipping.exe"+041466F0]+f8]+308]+70]+20]+3B0'
 
 z = readFloat(zaddr)
 x = readFloat(xaddr)
@@ -1736,13 +1736,13 @@ t.Enabled=true
 {$lua}
 
 
-zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F2A830]+f0]+3d8]+538]+3f8]+1A8'
-yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F2A830]+f0]+3d8]+538]+3f8]+1A4'
-xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03F2A830]+f0]+3d8]+538]+3f8]+1A0'
+zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A8'
+yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A4'
+xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A0'
 
-rolladdr  = '[[[[["CodeVein-Win64-Shipping.exe"+041412E0]+20]+4b0]+a8]+3b8]+3b8'
-yawaddr   = '[[[[["CodeVein-Win64-Shipping.exe"+041412E0]+20]+4b0]+a8]+3b8]+3B4'
-pitchaddr = '[[[[["CodeVein-Win64-Shipping.exe"+041412E0]+20]+4b0]+a8]+3b8]+3B0'
+rolladdr  = '[[[[["CodeVein-Win64-Shipping.exe"+041466F0]+f8]+308]+70]+20]+3b8'
+yawaddr   = '[[[[["CodeVein-Win64-Shipping.exe"+041466F0]+f8]+308]+70]+20]+3B4'
+pitchaddr = '[[[[["CodeVein-Win64-Shipping.exe"+041466F0]+f8]+308]+70]+20]+3B0'
 
 writeFloat(zaddr,z)
 writeFloat(xaddr,x)
@@ -1787,40 +1787,43 @@ t.Enabled=true
             <CheatEntry>
               <ID>1353</ID>
               <Description>"x"</Description>
+              <LastState Value="-42090.66406" RealAddress="DD6F0220"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+03F2A830</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+03FB72B0</Address>
               <Offsets>
                 <Offset>1a0</Offset>
-                <Offset>3f8</Offset>
-                <Offset>538</Offset>
-                <Offset>3d8</Offset>
-                <Offset>f0</Offset>
+                <Offset>108</Offset>
+                <Offset>20</Offset>
+                <Offset>128</Offset>
+                <Offset>1d0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>1354</ID>
               <Description>"y"</Description>
+              <LastState Value="2536.466797" RealAddress="DD6F0224"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+03F2A830</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+03FB72B0</Address>
               <Offsets>
                 <Offset>1a4</Offset>
-                <Offset>3f8</Offset>
-                <Offset>538</Offset>
-                <Offset>3d8</Offset>
-                <Offset>f0</Offset>
+                <Offset>108</Offset>
+                <Offset>20</Offset>
+                <Offset>128</Offset>
+                <Offset>1d0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>1355</ID>
               <Description>"z"</Description>
+              <LastState Value="40161.08203" RealAddress="DD6F0228"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+03F2A830</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+03FB72B0</Address>
               <Offsets>
                 <Offset>1a8</Offset>
-                <Offset>3f8</Offset>
-                <Offset>538</Offset>
-                <Offset>3d8</Offset>
-                <Offset>f0</Offset>
+                <Offset>108</Offset>
+                <Offset>20</Offset>
+                <Offset>128</Offset>
+                <Offset>1d0</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
@@ -1829,46 +1832,49 @@ t.Enabled=true
           <ID>1357</ID>
           <Description>"Camera Angle Pointers"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="00000000"/>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>1358</ID>
               <Description>"Roll"</Description>
+              <LastState Value="0" RealAddress="44DEF918"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+041412E0</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+041466F0</Address>
               <Offsets>
                 <Offset>3b8</Offset>
-                <Offset>3b8</Offset>
-                <Offset>a8</Offset>
-                <Offset>4b0</Offset>
                 <Offset>20</Offset>
+                <Offset>70</Offset>
+                <Offset>308</Offset>
+                <Offset>f8</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>1360</ID>
               <Description>"Yaw"</Description>
+              <LastState Value="230.6550903" RealAddress="44DEF914"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+041412E0</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+041466F0</Address>
               <Offsets>
                 <Offset>3b4</Offset>
-                <Offset>3b8</Offset>
-                <Offset>a8</Offset>
-                <Offset>4b0</Offset>
                 <Offset>20</Offset>
+                <Offset>70</Offset>
+                <Offset>308</Offset>
+                <Offset>f8</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>1359</ID>
               <Description>"Pitch"</Description>
+              <LastState Value="40.14089966" RealAddress="44DEF910"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+041412E0</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+041466F0</Address>
               <Offsets>
                 <Offset>3b0</Offset>
-                <Offset>3b8</Offset>
-                <Offset>a8</Offset>
-                <Offset>4b0</Offset>
                 <Offset>20</Offset>
+                <Offset>70</Offset>
+                <Offset>308</Offset>
+                <Offset>f8</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
@@ -2246,7 +2252,7 @@ pitch = 350.0
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of movss [rbx+000001F8],xmm0</Description>
       <AddressString>CodeVein-Win64-Shipping.exe+67D28FE</AddressString>
       <Before>
@@ -2274,7 +2280,7 @@ pitch = 350.0
         <Byte>00</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of movss [rbx+000001FC],xmm1</Description>
       <AddressString>CodeVein-Win64-Shipping.exe+67D2921</AddressString>
       <Before>
@@ -2302,7 +2308,7 @@ pitch = 350.0
         <Byte>00</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rdi+14],eax</Description>
       <AddressString>CodeVein-Win64-Shipping.exe+6552175</AddressString>
       <Before>
@@ -2325,7 +2331,7 @@ pitch = 350.0
         <Byte>89</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rbx+00000210],eax</Description>
       <AddressString>CodeVein-Win64-Shipping.exe+67D297C</AddressString>
       <Before>
@@ -2351,7 +2357,7 @@ pitch = 350.0
         <Byte>8B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of movups xmm0,[rcx+000000EC]</Description>
       <AddressString>CodeVein-Win64-Shipping.exe+715A7F1</AddressString>
       <Before>
