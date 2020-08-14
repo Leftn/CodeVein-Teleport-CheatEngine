@@ -1683,9 +1683,9 @@ dealloc(bCodeScan)
 //code from here to '[DISABLE]' will be used to enable the cheat
 
 {$lua}
-zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A8'
-yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A4'
-xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A0'
+zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+0432C2A8]+0]+58]+3f0]+f8]+1A8'
+yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+0432C2A8]+0]+58]+3f0]+f8]+1A4'
+xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+0432C2A8]+0]+58]+3f0]+f8]+1A0'
 
 rolladdr  = '[[[[["CodeVein-Win64-Shipping.exe"+041466F0]+f8]+308]+70]+20]+3b8'
 yawaddr   = '[[[[["CodeVein-Win64-Shipping.exe"+041466F0]+f8]+308]+70]+20]+3B4'
@@ -1736,9 +1736,9 @@ t.Enabled=true
 {$lua}
 
 
-zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A8'
-yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A4'
-xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+03FB72B0]+1d0]+128]+20]+108]+1A0'
+zaddr = '[[[[["CodeVein-Win64-Shipping.exe"+0432C2A8]+0]+58]+3f0]+f8]+1A8'
+yaddr = '[[[[["CodeVein-Win64-Shipping.exe"+0432C2A8]+0]+58]+3f0]+f8]+1A4'
+xaddr = '[[[[["CodeVein-Win64-Shipping.exe"+0432C2A8]+0]+58]+3f0]+f8]+1A0'
 
 rolladdr  = '[[[[["CodeVein-Win64-Shipping.exe"+041466F0]+f8]+308]+70]+20]+3b8'
 yawaddr   = '[[[[["CodeVein-Win64-Shipping.exe"+041466F0]+f8]+308]+70]+20]+3B4'
@@ -1787,43 +1787,40 @@ t.Enabled=true
             <CheatEntry>
               <ID>1353</ID>
               <Description>"x"</Description>
-              <LastState Value="-42090.66406" RealAddress="DD6F0220"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+03FB72B0</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+0432C2A8</Address>
               <Offsets>
                 <Offset>1a0</Offset>
-                <Offset>108</Offset>
-                <Offset>20</Offset>
-                <Offset>128</Offset>
-                <Offset>1d0</Offset>
+                <Offset>f8</Offset>
+                <Offset>3f0</Offset>
+                <Offset>58</Offset>
+                <Offset>0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>1354</ID>
               <Description>"y"</Description>
-              <LastState Value="2536.466797" RealAddress="DD6F0224"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+03FB72B0</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+0432C2A8</Address>
               <Offsets>
                 <Offset>1a4</Offset>
-                <Offset>108</Offset>
-                <Offset>20</Offset>
-                <Offset>128</Offset>
-                <Offset>1d0</Offset>
+                <Offset>f8</Offset>
+                <Offset>3f0</Offset>
+                <Offset>58</Offset>
+                <Offset>0</Offset>
               </Offsets>
             </CheatEntry>
             <CheatEntry>
               <ID>1355</ID>
               <Description>"z"</Description>
-              <LastState Value="40161.08203" RealAddress="DD6F0228"/>
               <VariableType>Float</VariableType>
-              <Address>"CodeVein-Win64-Shipping.exe"+03FB72B0</Address>
+              <Address>"CodeVein-Win64-Shipping.exe"+0432C2A8</Address>
               <Offsets>
                 <Offset>1a8</Offset>
-                <Offset>108</Offset>
-                <Offset>20</Offset>
-                <Offset>128</Offset>
-                <Offset>1d0</Offset>
+                <Offset>f8</Offset>
+                <Offset>3f0</Offset>
+                <Offset>58</Offset>
+                <Offset>0</Offset>
               </Offsets>
             </CheatEntry>
           </CheatEntries>
@@ -1838,7 +1835,6 @@ t.Enabled=true
             <CheatEntry>
               <ID>1358</ID>
               <Description>"Roll"</Description>
-              <LastState Value="0" RealAddress="44DEF918"/>
               <VariableType>Float</VariableType>
               <Address>"CodeVein-Win64-Shipping.exe"+041466F0</Address>
               <Offsets>
@@ -1852,7 +1848,6 @@ t.Enabled=true
             <CheatEntry>
               <ID>1360</ID>
               <Description>"Yaw"</Description>
-              <LastState Value="230.6550903" RealAddress="44DEF914"/>
               <VariableType>Float</VariableType>
               <Address>"CodeVein-Win64-Shipping.exe"+041466F0</Address>
               <Offsets>
@@ -1866,7 +1861,6 @@ t.Enabled=true
             <CheatEntry>
               <ID>1359</ID>
               <Description>"Pitch"</Description>
-              <LastState Value="40.14089966" RealAddress="44DEF910"/>
               <VariableType>Float</VariableType>
               <Address>"CodeVein-Win64-Shipping.exe"+041466F0</Address>
               <Offsets>
@@ -2096,6 +2090,63 @@ z = 34722.89453
 
 roll = 0.0
 yaw = 235.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1400</ID>
+                  <Description>"Successor of the Breath"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+{$lua}
+x = 234591.1719
+y = -24486.89844
+z = 39228.64062
+
+roll = 0.0
+yaw = 25.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1399</ID>
+                  <Description>"Guilded Hunter"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+{$lua}
+x = -31734.68164
+y = 88012.69531
+z = 31523.92773
+
+roll = 0.0
+yaw = 185.0
+pitch = 350.0
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1401</ID>
+                  <Description>"Successor of the Claw"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+{$lua}
+x = -13478.15625
+y = 111880.9922
+z = 33545.08984
+
+roll = 0.0
+yaw = 75.0
 pitch = 350.0
 {$asm}
 
